@@ -1,0 +1,30 @@
+{
+  "name": "techscroll",
+  "version": "1.0.0",
+  "description": "Tech scroll template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TallesFaria/Scroll-Reveal-Template.git"
+  },
+  "keywords": [
+    "scroll",
+    "template",
+    "website",
+    "modern"
+  ],
+  "author": "Talles Faria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TallesFaria/Scroll-Reveal-Template/issues"
+  },
+  "homepage": "https://github.com/TallesFaria/Scroll-Reveal-Template#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.5"
+  }
+}
