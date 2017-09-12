@@ -183,11 +183,23 @@
 
 
   <div id="page5">
-    <div class="row">
-      <div class="col-md-12">
-      </div>
+    <div class="ptext">
+      <span class="border">
+        Parallax = Awesome
+      </span>
     </div>
   </div>
+
+  <section class="section section-light">
+    <h2>Section One</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel dicta fugiat consectetur ratione autem excepturi. Rerum
+      cumque iusto aut? Iste nobis obcaecati modi nostrum non, totam at harum, expedita sapiente a possimus tempora. Fuga,
+      placeat? Laudantium suscipit molestias quo ratione officia beatae blanditiis iure! Illum, ea quaerat error, possimus
+      rerum vitae ducimus deserunt quibusdam numquam nemo minus quam pariatur asperiores inventore fugiat atque ab commodi,
+      consectetur iste sit. Fuga aperiam, accusantium mollitia sed quod hic perspiciatis in consectetur, modi autem similique
+      omnis sequi quibusdam, doloremque ipsa molestiae odio explicabo odit quas quis consequatur. Officiis reiciendis obcaecati
+      fuga quas eum.</p>
+  </section>
 
   <div id="page6">
     <div class="row">
@@ -197,9 +209,10 @@
   </div>
 
   <div id="page7">
-    <div class="row">
-      <div class="col-md-12">
-      </div>
+    <div class="ptext ptext-light">
+      <span class="border trans">
+        Code for Art
+      </span>
     </div>
   </div>
 
@@ -207,8 +220,24 @@
 
   </div>
   <div id="page9">
-
+    <div class="ptext">
+      <span class="border">
+        Image Three Text
+      </span>
+    </div>
   </div>
+
+  <section class="section section-dark">
+    <h2>Section Two</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel dicta fugiat consectetur ratione autem excepturi. Rerum
+      cumque iusto aut? Iste nobis obcaecati modi nostrum non, totam at harum, expedita sapiente a possimus tempora. Fuga,
+      placeat? Laudantium suscipit molestias quo ratione officia beatae blanditiis iure! Illum, ea quaerat error, possimus
+      rerum vitae ducimus deserunt quibusdam numquam nemo minus quam pariatur asperiores inventore fugiat atque ab commodi,
+      consectetur iste sit. Fuga aperiam, accusantium mollitia sed quod hic perspiciatis in consectetur, modi autem similique
+      omnis sequi quibusdam, doloremque ipsa molestiae odio explicabo odit quas quis consequatur. Officiis reiciendis obcaecati
+      fuga quas eum.</p>
+  </section>
+
   <div id="page10">
 
   </div>
@@ -241,11 +270,21 @@
       </div>
     </section>
   </div>
+
   <div id="page13">
 
   </div>
+  <div id="page14">
 
-  <footer>
+  </div>
+  <div id="page15">
+
+  </div>
+  <div id="page16">
+
+  </div>
+
+  <footer id='footer'>
     <p class="text-center">Art and Fashion Copyright &copy; 2017</p>
   </footer>
 
@@ -276,7 +315,7 @@
       delay: 2000,
       origin: 'bottom'
     });
-    sr.reveal('#testomial div', {
+    sr.reveal('#testimonial div', {
       duration: 2000,
       origin: 'bottom'
     });
@@ -295,6 +334,21 @@
     sr.reveal('.info-down', {
       duration: 2000,
       origin: 'down',
+      distance: '10em'
+    });
+    sr.reveal('.section', {
+      duration: 2000,
+      origin: 'down',
+      distance: '10em'
+    });
+    sr.reveal('#contact form', {
+      duration: 2000,
+      origin: 'left',
+      distance: '10em'
+    });
+    sr.reveal('.footer', {
+      duration: 2000,
+      origin: 'left',
       distance: '10em'
     });
   </script>
