@@ -143,15 +143,20 @@ p {
   font-size: 4em;
 }
 
-#clothes-section .clothes-pic img {
-  height: 40vh;
+#clothes-section .clothes-pic figure {
   margin-bottom: 2em;
   position: relative;
   overflow: hidden;
-  transition: all 0.6 ease-in-out
+  transition: all 0.6 ease-in-out;
+  cursor: pointer;
   /* opacity: 0;
   transform: translateX(-20px);
   transition: all 0.5s ease-in-out; */
+}
+
+#clothes-section .clothes-pic img {
+  height: 40vh;
+  transition: all 0.3s ease-in-out;
 }
 
 /* .is-showing {
@@ -159,7 +164,7 @@ p {
   transform: translateX(0px);
 } */
 
-/* #clothes-section .caption {
+#clothes-section .caption {
   position: absolute;
   top: 35vh;
   background: black;
@@ -169,14 +174,15 @@ p {
   font-family: 'Lora', serif;
   font-size: 11px;
   left: -100%;
-}*/
+  transition: all 0.3s ease-in-out;
+}
 
-#clothes-section figure:hover .caption{
-  left: 1.1vw;
+#clothes-section figure:hover .caption {
+  left: 0%;
 } 
 
-#clothes-section figure:hover img {
-  transform: scale(1);
+#clothes-section img:hover, figure:hover {
+  transform: scale(1.2);
 } 
 
 #page8 {
