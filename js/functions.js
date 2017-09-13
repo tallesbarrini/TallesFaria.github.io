@@ -22,4 +22,17 @@ $(window).scroll(function() {
 //       }, 150 * (i + 1));
 //     });
 //   }
+
+  if(wScroll > $('#page8').offset().top - $(window).height()) {
+	$('#page8').css({
+		'background-position':'center '+ (wScroll - $('#page8').offset().top) +'px' 
+	});
+
+	var opacity = (wScroll - $('#page8').offset().top + 400) / (wScroll / 15);
+
+	$('.window-tint').css({
+		'opacity':opacity
+	});
+	console.log(wScroll - 3000);
+  }
 });

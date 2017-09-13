@@ -184,17 +184,6 @@ p {
   transform: scale(1.2);
 } 
 
-#page8 {
-  background-image: url(img/model2.jpg);
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  opacity: 0.9;
-  height: 600px;
-  border-radius: 60%;
-  margin-top: 5em;
-}
-
 #page8-section {
   background-color: white;
   background-size: cover;
@@ -211,6 +200,63 @@ p {
 #page8-section .content h1{
   margin-top: 1em;
   font-size: 4em;
+}
+
+#page8 {
+  background-image: url(img/model2.jpg);
+  background-position: center 0em;
+  background-attachment: fixed;
+  opacity: 0.9;
+  position: relative;
+  height: 600px;
+  border-radius: 60%;
+  margin-top: 5em;
+}
+
+#page8 .window-tint {
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page8 .promo-text {
+  color: white;
+  font-weight: 100;
+  font-size: 3em;
+  line-height: 1.2;
+}
+
+#page8 .window-tint strong {
+  display: block;
+  font-size: 0.5em;
+}
+
+#page8 .window-tint span {
+  font-weight: 300;
+  font-size: 1em;
+  font-style: italic;
+  color: rgba(255,255,255,0.6);
+}
+
+#page8 .window-tint .window-cta {
+  font-size: 0.5em;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 20px; 
+  transition: all 0.3s ease-in-out;
+}
+
+#page8 .window-tint .window-cta:hover {
+  background: white;
+  color: black;
 }
 
 #page9 {
