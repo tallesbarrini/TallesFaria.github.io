@@ -19,14 +19,13 @@ p {
   font-weight: bold;
 }
 
-#page5, #page7, #page9, #page11 {
+#page5, #page7, #page9, #page11, #page14 {
   position: relative;
   opacity: 0.70;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
 }
 
 #page2 {
@@ -59,39 +58,153 @@ p {
 }
 
 #page6 {
+  background-image: url("img/bird-bg.jpg");
+  background-size: auto 100vh;
+  background-position: top center;
+  background-attachment: fixed;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#page6 .logo {
+  background-image: url("img/black-bird-logo.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50vh;
+  margin-top: -3em;
+  width: 100%;
+  height: 20vh;
+}
+
+#page6 .fore-bird {
+  background-image: url("img/fore-bird.png");
+  background-position: right bottom;
+  background-size: auto 100vh;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0vw;
+  top: 70vh;
+  margin-left: -10em;
+  width: 100%;
+  height: 100vh;
+}
+
+#page6 .back-bird {
+  background-image: url("img/back-bird.png");
+  background-position: top left;
+  background-size: auto 50vh;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 10vh;
+  margin-left: 0em;
+  width: 50%;
+  height: 100vh;
+}
+
+#page7 {
+  background-color: #d2d2d2;
+  background-size: cover;
+  opacity: 0.9;
+  width: 100%;
+}
+
+#page7 .content {
+  text-align: center;
+  font-family: 'Playball', cursive;
+  margin-top: 3em;
+  font-size: 1.2em;
+  padding: 2em 18em;
+}
+
+#page7 .content h1{
+  margin-top: 1em;
+  font-size: 4em;
+}
+
+#clothes-section {
+  background-color: white;
+  background-size: cover;
+  width: 100%;
+}
+
+#clothes-section .content {
+  text-align: center;
+  font-family: 'Playball', cursive;
+  margin-top: 3em;
+  font-size: 1.2em;
+  padding: 2em 18em;
+}
+
+#clothes-section .content h1{
+  margin-top: 1em;
+  font-size: 4em;
+}
+
+#clothes-section .clothes-pic img {
+  height: 40vh;
+  margin-bottom: 2em;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.6 ease-in-out
+  /* opacity: 0;
+  transform: translateX(-20px);
+  transition: all 0.5s ease-in-out; */
+}
+
+/* .is-showing {
+  opacity: 1;
+  transform: translateX(0px);
+} */
+
+/* #clothes-section .caption {
+  position: absolute;
+  top: 35vh;
+  background: black;
+  color: white;
+  overflow: hidden;
+  padding: 0.2em 0.5em;
+  font-family: 'Lora', serif;
+  font-size: 11px;
+  left: -100%;
+}*/
+
+#clothes-section figure:hover .caption{
+  left: 1.1vw;
+} 
+
+#clothes-section figure:hover img {
+  transform: scale(1);
+} 
+
+#page8 {
+  background-image: url("img/model2.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  height: 600px;
+  border-radius: 100%;
+  margin-top: 5em;
+}
+
+#page9 {
   background-color: white;
   background-size: cover;
   width: 100%;
   height: 100vh;
 }
 
-#page7 {
+
+#page10 {
   background-image: url("img/code.jpeg");
   background-size: cover;
   width: 100%;
   height: 60vh;
 }
 
-#page8 {
-  background-color: white;
-  background-size: cover;
-  width: 100%;
-  height: 100vh;
-}
-
-#page9 {
-  background-image: url("img/female-fashion.jpeg");
-  background-size: cover;
-  width: 100%;
-  height: 100vh;
-}
-
-#page10 {
-  background-color: white;
-  background-size: cover;
-  width: 100%;
-  height: 100vh;
-}
 
 #page11 {
   background-image: url("img/cover.jpg");
@@ -116,8 +229,7 @@ p {
 }
 
 #page14 {
-  background-color: white;
-  background-size: cover;
+  background-image: url("img/female-fashion.jpeg");
   width: 100%;
   height: 100vh;
 }
