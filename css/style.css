@@ -54,13 +54,13 @@ p {
   opacity: 0.9;
 }
 
-#page3-about {
+/* #page3-about {
   background-image: url("img/work2.jpg");
   background-size: cover;
   width: 100%;
   height: 100vh;
   opacity: 0.9;
-}
+} */
 
 #page4 {
   background-color: white;
@@ -73,9 +73,9 @@ p {
   visibility: hidden;
 }
 
-#page4 p {
+/* #page4 p {
   font-size: 5em;
-}
+} */
 
 #page4 h1 {
   margin-top: 2em;
