@@ -4,6 +4,7 @@
 
 html {
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -19,6 +20,7 @@ p {
   font-weight: bold;
 }
 
+#page3,
 #page5,
 #page7,
 #page9,
@@ -405,7 +407,16 @@ li {
   margin-top: 4em;
 }
 
+#page2 i {
+  /* margin-top: 4em; */
+  font-size: 22em;
+}
+
 #page2 .showcase-right {
+  margin-top: 3em;
+}
+
+#page2 .showcase-left {
   margin-top: 3em;
 }
 
